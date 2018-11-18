@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import './styles.sass';
+
+import { Button } from 'react-bulma-components';
 
 class App extends Component {
   render() {
@@ -19,6 +22,7 @@ class App extends Component {
           >
             Learn React
           </a>
+	    <Button color='info'>i am button </Button>
         </header>
       </div>
     );
